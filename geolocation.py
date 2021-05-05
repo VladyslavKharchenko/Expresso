@@ -21,7 +21,7 @@ class GeoLocation:
         distances_durations = gmaps.distance_matrix(
             origins=origin,
             destinations=kharkiv_offices_lat_lon
-        )['rows'][0]['elements']  # TODO if zero elements  [{'status': 'ZERO_RESULTS'}, {'status': 'ZERO_RESULTS'}, {'status': 'ZERO_RESULTS'}, {'status': 'ZERO_RESULTS'}, {'status': 'ZERO_RESULTS'}, {'status': 'ZERO_RESULTS'}, {'status': 'ZERO_RESULTS'}, {'status': 'ZERO_RESULTS'}]
+        )['rows'][0]['elements']
 
         zero_results_num = 0
         for result in distances_durations:
