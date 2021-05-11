@@ -1,10 +1,9 @@
 import configparser
 import logging
 import os
-from time import sleep
 
-from geolocation import GeoLocation
-from utils import get_btn_text_from_cb_data
+from bot.utils import GeoLocation
+from bot.utils import get_btn_text_from_cb_data
 
 from telegram.constants import PARSEMODE_HTML
 from telegram import (

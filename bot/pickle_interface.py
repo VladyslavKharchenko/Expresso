@@ -106,7 +106,7 @@ class PickleInterface:
 
 
 if __name__ == '__main__':
-    pickle_interface = PickleInterface(file='data/persistent')
+    pickle_interface = PickleInterface(file='../data/persistent')
     # contents = pickle_interface.add_admin(231297270, 'Vladyslav', sudo=True)
     # contents = pickle_interface.make_admin_available(231297270)
     # contents = pickle_interface.get_admin_name_by_id(231297270)
